@@ -1,0 +1,109 @@
+/* Importamos una fuente bonita de Google Fonts para los textos */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos generales para toda la página */
+body {
+    font-family: 'Roboto', sans-serif; /* Usamos la fuente importada */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Un gris muy claro para el fondo */
+    color: #333; /* Un color de texto oscuro pero no negro puro */
+}
+
+/* Contenedor principal */
+main {
+    max-width: 900px; /* Ancho máximo para que no se estire demasiado en pantallas grandes */
+    margin: 2rem auto; /* Centra el contenido y le da espacio arriba y abajo */
+    padding: 2rem; /* Espacio interior */
+    background-color: #ffffff; /* Fondo blanco para el contenido principal */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Una sombra sutil para darle profundidad */
+}
+
+/* Estilos para los artículos */
+article {
+    margin-bottom: 2.5rem; /* Espacio entre cada artículo */
+    padding-bottom: 1.5rem; /* Espacio al final del artículo */
+    border-bottom: 1px solid #eeeeee; /* Línea divisoria sutil */
+}
+
+/* Quitamos el borde del último artículo para que no se vea doble línea con el footer */
+article:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* Título principal */
+h1 {
+    color: #0056b3; /* Un color azul oscuro para el título principal */
+    text-align: center; /* Centramos el título */
+    margin-bottom: 2rem;
+}
+
+/* Subtítulos */
+h2 {
+    color: #007BFF; /* Un azul más brillante para los subtítulos */
+    border-bottom: 2px solid #007BFF; /* Una línea debajo para destacarlos */
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+/* Estilos para la imagen */
+img {
+    max-width: 100%; /* Hace que la imagen sea responsive y no se salga de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina espacios extra debajo de la imagen */
+    margin: 1.5rem auto; /* Centra la imagen y le da espacio vertical */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilos para los párrafos */
+p {
+    text-align: justify; /* Justifica el texto para una apariencia más ordenada */
+}
+
+/* Estilos para las listas */
+ul, ol {
+    padding-left: 2rem; /* Espacio a la izquierda de las listas */
+}
+
+li {
+    margin-bottom: 0.5rem; /* Espacio entre los elementos de la lista */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007BFF; /* Mismo azul que los subtítulos */
+    text-decoration: none; /* Quitamos el subrayado por defecto */
+    font-weight: bold;
+}
+
+/* Efecto al pasar el ratón sobre un enlace */
+a:hover {
+    text-decoration: underline; /* Mostramos el subrayado al pasar el ratón */
+    color: #0056b3; /* Oscurecemos un poco el color */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center; /* Centramos el texto */
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: #333; /* Fondo oscuro para el footer */
+    color: #f4f4f4; /* Texto claro */
+}
+
+footer p {
+    margin: 0;
+    text-align: center; /* Aseguramos que el párrafo dentro del footer esté centrado */
+}
+
+footer a {
+    color: #87ceeb; /* Un color celeste para el enlace del footer */
+}
+
+footer a:hover {
+    color: #ffffff; /* Blanco al pasar el ratón */
+}
